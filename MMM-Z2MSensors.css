@@ -1,0 +1,51 @@
+.z2m-wrapper {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.z2m-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 6px 0;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.z2m-row:last-child {
+  border-bottom: none;
+}
+
+.z2m-row.z2m-stale {
+  opacity: 0.35;
+}
+
+.z2m-label {
+  color: #999;
+  margin-right: 24px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.z2m-values {
+  color: #fff;
+  text-align: right;
+}
+
+.z2m-field {
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.z2m-field:first-child {
+  margin-left: 0;
+}
+
+.z2m-field i {
+  margin-right: 5px;
+  opacity: 0.75;
+  font-size: 0.85em;
+}
+
+.z2m-waiting {
+  opacity: 0.4;
+}

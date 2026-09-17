@@ -1,0 +1,9 @@
+{
+  "name": "MMM-Z2MSensors",
+  "version": "1.0.0",
+  "description": "MagicMirror\u00b2 module showing live Zigbee2MQTT sensor and device data",
+  "main": "MMM-Z2MSensors.js",
+  "dependencies": {
+    "mqtt": "^5.3.4"
+  }
+}
